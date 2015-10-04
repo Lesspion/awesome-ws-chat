@@ -1,0 +1,31 @@
+{
+  "name": "awesome-ws-chat",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Lesspion/awesome-ws-chat",
+  "authors": [
+    "hiddendev <coquelet.c@gmail.com>"
+  ],
+  "description": "An awesome chat with websocket",
+  "main": "server.js",
+  "moduleType": [],
+  "keywords": [
+    "awesome",
+    "chat",
+    "websocket",
+    "lesspion",
+    "hiddendev"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.1.4",
+    "bootstrap": "~3.3.5",
+    "humane-js": "~3.2.2"
+  }
+}

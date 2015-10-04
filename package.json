@@ -13,7 +13,7 @@
   },
   "keywords": [
     "websocket",
-    "awesom",
+    "awesome",
     "chat",
     "lesspion",
     "hiddendev"
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Lesspion/awesome-ws-chat#readme",
   "dependencies": {
     "express": "^4.13.3",
+    "mysql": "^2.9.0",
     "socket.io": "^1.3.7"
   }
 }
