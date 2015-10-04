@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test parrot</title>
+</head>
+<body>
+	<h1>{{ pagename|title }}</h1>
+<ul>
+	{{ good }}
+	{% for i in [1, 2, 3] %}
+	  <li{% if loop.first %} class="first"{% endif %}>
+	    {{ i }}
+	  </li>
+	{% endfor %}
+</ul>
+</body>
+</html>
